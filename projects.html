@@ -5,12 +5,35 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 
 <body>
     <h1 id="header-title">Recent Projects</h1>
-    <p class="temp-text">Thank you for your interest! I'm currently in the process of building this site, so please check again later, when I've added content :)</p>
+    <div id="main-content">
+        <p><a href="index.html"><i class="fas fa-arrow-left"></i> Back To Home</a></p>
+        <div class="columns is-desktop">
+            <div class="column hyperlink" onclick="location.href='recent-projects/monopoly.html';">
+                <h2>Monopoly</h2>
+                <p>
+                    An implementation of the well-known board game, Monopoly, using Java. It is backed by a SQLite database to allow games to be saved part way through (an unquestionably useful feature given the length of a typical Monopoly game!).
+                </p>
+            </div>
+            <div class="column hyperlink" onclick="location.href='recent-projects/website.html';">
+                <h2>Website</h2>
+                <p>
+                    The website you're viewing right now has been completely developed from the ground up. It uses Bootstrap, Bulma and Sass to make the core HTML look pretty :)
+                </p>
+            </div>
+            <div class="column hyperlink" onclick="location.href='recent-projects/ultimate.html';">
+                <h2>Ultimate Tic Tac Toe</h2>
+                <p>
+                    An implementation of the extended version of Tic Tac Toe, including an AI opponent.
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

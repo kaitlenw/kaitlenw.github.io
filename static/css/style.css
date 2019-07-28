@@ -30,8 +30,7 @@ body {
   color: #C5C3C6;
   background-color: #4c5c68;
   padding: 20px;
-  margin: 10px;
-  width: 100%;
+  margin: 20px;
   border: 1px solid #4c5c68;
   border-radius: 10px;
   cursor: pointer;
@@ -39,6 +38,21 @@ body {
 
 .hyperlink:hover {
   box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
+}
+
+img {
+  height: 600px;
+  width: 600px;
+  float: right;
+}
+
+a {
+  color: #DCDCDD;
+}
+
+a:hover {
+  color: #DCDCDD;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
