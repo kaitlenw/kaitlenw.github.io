@@ -54,3 +54,12 @@ img {
     width: 600px;
     float: right;
 }
+
+a {
+    color: $headerTextColour;
+}
+
+a:hover {
+    color: $headerTextColour;
+    text-decoration: underline;
+}

@@ -46,4 +46,13 @@ img {
   float: right;
 }
 
+a {
+  color: #DCDCDD;
+}
+
+a:hover {
+  color: #DCDCDD;
+  text-decoration: underline;
+}
+
 /*# sourceMappingURL=style.css.map */
