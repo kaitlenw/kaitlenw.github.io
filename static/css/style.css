@@ -1,0 +1,22 @@
+body {
+    background-color: #46494C;
+    color: #C5C3C6;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 32px;
+}
+
+#header-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 100px;
+    color: #DCDCDD;
+    background-color: #1985A1;
+}
+
+.initials {
+    font-size: 100px;
+}
