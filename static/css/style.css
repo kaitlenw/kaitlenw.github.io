@@ -1,7 +1,7 @@
 html,
 body {
-  background-color: #46494C;
-  color: #C5C3C6;
+  background-color: #d90368;
+  color: #2e294e;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -22,16 +22,16 @@ body {
   padding: 25px;
   font-family: "Roboto Mono", monospace;
   font-size: 100px;
-  color: #DCDCDD;
-  background-color: #1985A1;
+  color: #f1e9da;
+  background-color: #541388;
 }
 
 .hyperlink {
-  color: #C5C3C6;
-  background-color: #4c5c68;
+  color: #2e294e;
+  background-color: #BCD2EE;
   padding: 20px;
   margin: 20px;
-  border: 1px solid #4c5c68;
+  border: 1px solid #BCD2EE;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -47,11 +47,11 @@ img {
 }
 
 a {
-  color: #DCDCDD;
+  color: #f1e9da;
 }
 
 a:hover {
-  color: #DCDCDD;
+  color: #f1e9da;
   text-decoration: underline;
 }
 

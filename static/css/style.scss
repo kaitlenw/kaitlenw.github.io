@@ -1,12 +1,18 @@
-$mainBackground: #46494C;
-$mainTextColour: #C5C3C6;
+$color1: #d90368;
+$color2: #2e294e;
+$color3: #541388; //#2F4550;
+$color4: #f1e9da;
+$color5: #BCD2EE;
+//
+$mainBackground: $color1;
+$mainTextColour: $color2;
 $mainFont: 'Open Sans',
 sans-serif;
-$headerBackground: #1985A1;
-$headerTextColour: #DCDCDD;
+$headerBackground: $color3;
+$headerTextColour: $color4;
 $headerFont: 'Roboto Mono',
 monospace;
-$divBackground: #4c5c68;
+$divBackground: $color5;
 html,
 body {
     background-color: $mainBackground;
