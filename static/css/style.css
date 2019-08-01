@@ -18,7 +18,7 @@ body {
 #header-title {
   text-align: center;
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 0px;
   padding: 25px;
   font-family: "Roboto Mono", monospace;
   font-size: 100px;
@@ -53,6 +53,25 @@ a {
 a:hover {
   color: #f1e9da;
   text-decoration: underline;
+}
+
+#navigation-container {
+  text-align: center;
+}
+
+#header-navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(84, 19, 136, 0.5);
+}
+
+#header-navigation li {
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
