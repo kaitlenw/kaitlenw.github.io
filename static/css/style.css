@@ -1,7 +1,7 @@
 html,
 body {
   background-color: #d90368;
-  color: #2e294e;
+  color: #f1e9da;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -28,10 +28,10 @@ body {
 
 .hyperlink {
   color: #2e294e;
-  background-color: #BCD2EE;
+  background-color: #bcd2ee;
   padding: 20px;
   margin: 20px;
-  border: 1px solid #BCD2EE;
+  border: 1px solid #bcd2ee;
   border-radius: 10px;
   cursor: pointer;
 }

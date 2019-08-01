@@ -1,11 +1,11 @@
 $color1: #d90368;
 $color2: #2e294e;
-$color3: #541388; //#2F4550;
+$color3: #541388;
 $color4: #f1e9da;
-$color5: #BCD2EE;
+$color5: #bcd2ee;
 //
 $mainBackground: $color1;
-$mainTextColour: $color2;
+$mainTextColour: $color4;
 $mainFont: 'Open Sans',
 sans-serif;
 $headerBackground: $color3;
@@ -13,10 +13,11 @@ $headerTextColour: $color4;
 $headerFont: 'Roboto Mono',
 monospace;
 $divBackground: $color5;
+$divTextColour: $color2;
 html,
 body {
     background-color: $mainBackground;
-    color: $mainTextColour;
+    color: $headerTextColour;
     font-family: $mainFont;
 }
 
@@ -42,7 +43,7 @@ body {
 }
 
 .hyperlink {
-    color: $mainTextColour;
+    color: $divTextColour;
     background-color: $divBackground;
     padding: 20px;
     margin: 20px;
