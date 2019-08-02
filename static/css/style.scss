@@ -1,23 +1,24 @@
-$color1: #d90368;
-$color2: #2e294e;
-$color3: #541388;
-$color4: #f1e9da;
-$color5: #bcd2ee;
+$base: #135aaf;
+$accent1: #ffc908;
+$accent2: #ff6108;
+$white: #ffffff;
+$darkGray: #353b4b;
+$lightGray: #f8f9fb;
 //
-$mainBackground: $color1;
-$mainTextColour: $color4;
+$mainBackground: $lightGray;
+$mainTextColour: $darkGray;
 $mainFont: 'Open Sans',
 sans-serif;
-$headerBackground: $color3;
-$headerTextColour: $color4;
+$headerBackground: $base;
+$headerTextColour: $white;
 $headerFont: 'Roboto Mono',
 monospace;
-$divBackground: $color5;
-$divTextColour: $color2;
+$divBackground: $white;
+$divTextColour: $darkGray;
 html,
 body {
     background-color: $mainBackground;
-    color: $headerTextColour;
+    color: $mainTextColour;
     font-family: $mainFont;
 }
 
@@ -33,8 +34,8 @@ body {
 
 #header-title {
     text-align: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    // margin-top: 50px;
+    margin-bottom: 0px;
     padding: 25px;
     font-family: $headerFont;
     font-size: 100px;
@@ -53,6 +54,7 @@ body {
 }
 
 .hyperlink:hover {
+    text-decoration: underline;
     box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1);
 }
 
@@ -62,11 +64,47 @@ img {
     float: right;
 }
 
-a {
-    color: $headerTextColour;
+// a {
+//     color: $accent1;
+// }
+// a:hover {
+//     color: $headerTextColour;
+//     text-decoration: underline;
+// }
+#navigation-container {
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-a:hover {
-    color: $headerTextColour;
-    text-decoration: underline;
+#header-navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: $darkGray;
+}
+
+#header-navigation li {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: $lightGray;
+}
+
+#header-navigation li a {
+    font-size: 20px;
+    color: $lightGray;
+    text-decoration: none;
+}
+
+#header-navigation #header-active {
+    background-color: $lightGray;
+    color: $darkGray;
+}
+
+#header-navigation #header-active a {
+    background-color: $lightGray;
+    color: $darkGray;
+    text-decoration: none;
 }
