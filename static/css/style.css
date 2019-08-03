@@ -49,7 +49,7 @@ img {
 
 #navigation-container {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 #header-navigation {
@@ -83,6 +83,10 @@ img {
   background-color: #f8f9fb;
   color: #353b4b;
   text-decoration: none;
+}
+
+#nav-arrow a {
+  color: #ff6108;
 }
 
 .lightbox-thumbnail {

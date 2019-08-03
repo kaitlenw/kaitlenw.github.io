@@ -67,7 +67,7 @@ img {
 
 #navigation-container {
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 #header-navigation {
@@ -108,4 +108,8 @@ img {
     height: auto;
     float: left;
     margin: 25px;
+}
+
+#nav-arrow a {
+    color: $accent2;
 }
