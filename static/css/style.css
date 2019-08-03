@@ -85,15 +85,15 @@ img {
   text-decoration: none;
 }
 
-#nav-arrow a {
-  color: #ff6108;
-}
-
 .lightbox-thumbnail {
   width: 15%;
   height: auto;
   float: left;
   margin: 25px;
+}
+
+#nav-arrow a {
+  color: #ff6108;
 }
 
 /*# sourceMappingURL=style.css.map */
