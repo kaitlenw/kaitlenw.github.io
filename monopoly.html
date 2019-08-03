@@ -17,12 +17,48 @@
         </ul>
     </div>
     <div id="main-content">
-        <p><a href="../projects.html"><i class="fas fa-arrow-left"></i> Back To All Projects</a></p>
+        <p>
+            <a href="../projects.html"><i class="fas fa-arrow-left"></i> Back To All Projects</a>
+        </p>
         <br />
-        <p class="temp-text">Thank you for your interest! I'm currently in the process of building this site, so please check again later, when I've added content :)</p>
-        <img src="static/img/monopoly-fx-board.png" alt="Monopoly Board">
-        <p>Write stuff about Monopoly :)</p>
-    </div>
+
+        <p>An implementation of the well-known board game, Monopoly, using Java.</p>
+
+        <h2>Current Functionality</h2>
+        <p>Since the implementation is still in development, it is not yet possible to fully play the game. Currently, the following functionality has been implemented:</p>
+        <div class="content">
+            <ul>
+                <li>GUI:
+                    <ul>
+                        <li>Displays the board and current player positions on the board.</li>
+                        <li>Displays information about the current player - their name, current location, whether they are in jail and their current balance.</li>
+                        <li>Game log keeps a record of past events in the game.</li>
+                    </ul>
+                </li>
+
+                <li>Player movement:
+                    <ul>
+                        <li>Rolling the dice and adjusting the player's position based on the numbers.</li>
+                        <li>Taking another turn after rolling a double.</li>
+                        <li>Going to jail if three doubles have been rolled in a row, or if the player lands on the Go To Jail square.</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <p>
+            The next goals for the project are buying properties, paying rents from landing on owned properties and using Chance and Community Chest cards.
+        </p>
+        <h2>Technical Details</h2>
+        <p>
+            The game is written in Java, using JavaFX for the GUI. It is also backed by SQLite to store information about the board (including its positions and Chance and Community Chest cards), and the players (including their current position, balance and properties
+            they've bought and built houses or hotels on).
+        </p>
+        <h2>Screenshots</h2>
+        <p>Below you will find some screenshots of the project; as the project is still in development, these screenshots act as a window into the current state of the game, and may change in future. Clicking on a thumbnail below will enlarge the image.</p>
+        <div class="content" style="vertical-align: middle;">
+            <a data-fancybox="monopoly-gallery" data-caption="Monopoly Board" href="static/img/monopoly-fx-board.png"><img src="static/img/monopoly-fx-board.png" class="lightbox-thumbnail img-thumbnail"></a>
+            <a data-fancybox="monopoly-gallery" data-caption="Current GUI for Monopoly" href="static/img/monopoly-fx-game.png"><img src="static/img/monopoly-fx-game.png" class="lightbox-thumbnail img-thumbnail"></a>
+        </div>
 </body>
 
 </html>
