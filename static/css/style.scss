@@ -65,13 +65,6 @@ img {
     float: right;
 }
 
-// a {
-//     color: $accent1;
-// }
-// a:hover {
-//     color: $headerTextColour;
-//     text-decoration: underline;
-// }
 #navigation-container {
     text-align: center;
     margin-bottom: 50px;
@@ -108,4 +101,11 @@ img {
     background-color: $lightGray;
     color: $darkGray;
     text-decoration: none;
+}
+
+.lightbox-thumbnail {
+    width: 15%;
+    height: auto;
+    float: left;
+    margin: 25px;
 }

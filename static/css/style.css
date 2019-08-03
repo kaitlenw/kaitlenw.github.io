@@ -85,4 +85,11 @@ img {
   text-decoration: none;
 }
 
+.lightbox-thumbnail {
+  width: 15%;
+  height: auto;
+  float: left;
+  margin: 25px;
+}
+
 /*# sourceMappingURL=style.css.map */
