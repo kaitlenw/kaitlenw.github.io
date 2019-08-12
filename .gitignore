@@ -2,3 +2,5 @@
 res-ignore/
 
 static/\.DS_Store
+
+static/img/\.DS_Store
