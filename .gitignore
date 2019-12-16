@@ -4,3 +4,5 @@ res-ignore/
 static/\.DS_Store
 
 static/img/\.DS_Store
+
+.DS_Store
