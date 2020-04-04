@@ -12,50 +12,38 @@
         <ul id="header-navigation">
             <li><a href="index.html">Home</a></li>
             <li><a href="about-me.html">About Me</a></li>
-            <li id="header-active"><a href="projects.html">Projects</a></li>
-            <li><a href="archive.html">Archive</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li id="header-active"><a href="archive.html">Archive</a></li>
         </ul>
     </div>
     <div id="main-content">
-        <p id="nav-arrow"><a href="projects.html"><i class="fas fa-arrow-left"></i> Back To All Projects</a></p>
-
-        <p>An implementation of the well-known board game, Monopoly, using Java.</p>
-
-        <h2>Current Functionality</h2>
-        <p>Since the implementation is still in development, it is not yet possible to fully play the game. Currently, the following functionality has been implemented:</p>
-        <div class="content">
-            <ul>
-                <li>GUI:
-                    <ul>
-                        <li>Displays the board and current player positions on the board.</li>
-                        <li>Displays information about the current player - their name, current location, whether they are in jail and their current balance.</li>
-                        <li>Game log keeps a record of past events in the game.</li>
-                    </ul>
-                </li>
-
-                <li>Player movement:
-                    <ul>
-                        <li>Rolling the dice and adjusting the player's position based on the numbers.</li>
-                        <li>Taking another turn after rolling a double.</li>
-                        <li>Going to jail if three doubles have been rolled in a row, or if the player lands on the Go To Jail square.</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
+        <p id="nav-arrow"><a href="archive.html"><i class="fas fa-arrow-left"></i> Back To Main Archive</a></p>
         <p>
-            The next goals for the project are buying properties, paying rents from landing on owned properties and using Chance and Community Chest cards.
+            Monopoly was a project I implemented in Java, over the course of two years. In its final form, it had two main applications--the game itself, and a separate application for creating custom boards. Both applications were implemented using Java (with Java
+            Swing for the UI) and SQLite for saving the state of games and boards.
         </p>
-        <h2>Technical Details</h2>
         <p>
-            The game is written in Java, using JavaFX for the GUI. It is also backed by SQLite to store information about the board (including its positions and Chance and Community Chest cards), and the players (including their current position, balance and properties
-            they've bought and built houses or hotels on).
+            For both the main game and the board editor, the board graphic was procedurally generated using a Canvas widget from Java Swing in order to allow for the names and colours of the squares to be easily changed, regardless of which was board was being used.
+            In addition, in the main game, this allowed for the players' locations and any houses and/or hotels to be drawn dynamically where needed.
         </p>
-        <h2>Screenshots</h2>
-        <p>Below you will find some screenshots of the project; as the project is still in development, these screenshots act as a window into the current state of the game, and may change in future. Clicking on a thumbnail below will enlarge the image.</p>
+        <h2>Monopoly</h2>
+
+
+        <h2>Board Editor</h2>
+        <p>
+            The board editor allows users to create their own boards that can be imported into the main Monopoly application and played on. Users can decide a name for their board (such as a location it's based off), a currency, what colour scheme they want to use
+            and which tax system they want to use on the Income Tax square--a flat rate of 200, or the smaller of 10% of the player's balance or 200. All property squares (including Stations and Utilities) can have their names customised by the user,
+            and these are then used in randomly generated Chance and Community Chest cards.
+        </p>
+        <p>
+            Below you will find some screenshots of the project.
+        </p>
         <div class="content" style="vertical-align: middle;">
-            <a data-fancybox="monopoly-gallery" data-caption="Monopoly Board" href="static/img/monopoly-fx/monopoly-fx-board.png"><img src="static/img/monopoly-fx/monopoly-fx-board.png" class="lightbox-thumbnail img-thumbnail"></a>
-            <a data-fancybox="monopoly-gallery" data-caption="Current GUI for Monopoly" href="static/img/monopoly-fx/monopoly-fx-game.png"><img src="static/img/monopoly-fx/monopoly-fx-game.png" class="lightbox-thumbnail img-thumbnail"></a>
+            <a data-fancybox="monopoly-gallery" data-caption="Board Editor" href="static/img/monopoly/board-editor-main.png"><img src="static/img/monopoly/board-editor-main.png" class="lightbox-thumbnail img-thumbnail"></a>
+            <a data-fancybox="monopoly-gallery" data-caption="Chance Card Generation" href="static/img/monopoly/board-editor-chance.png"><img src="static/img/monopoly/board-editor-chance.png" class="lightbox-thumbnail img-thumbnail"></a>
         </div>
+    </div>
+
 </body>
 
 </html>
