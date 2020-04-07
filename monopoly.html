@@ -52,9 +52,27 @@
         </p>
 
         <h2>Monopoly</h2>
-        At its heart, the game application implements all of the rules that define Monopoly. This includes going to Jail and getting back out, building houses and hotels, mortgaging properties and trading properties, money and Get Out Of Jail Free cards with
-        another player. There was much focus on the GUI to make player interactions easy and intuitive; some imagination and creativity was needed for this, as Java Swing was not designed for making games in! An example of this is using a dialog box with
-        formatted text as a Property Deed.
+        <p>
+            At its heart, the game application implements all of the rules that define Monopoly. This includes going to Jail and getting back out, building houses and hotels, mortgaging properties and trading properties, money and Get Out Of Jail Free cards with
+            another player. There was much focus on the GUI to make player interactions easy and intuitive; some imagination and creativity was needed for this, as Java Swing was not designed for making games in! An example of this is using a dialog box
+            with formatted text as a Property Deed.
+        </p>
+        <p>
+            During a player's turn, the main screen will display information they may find useful, such as which properties they already own, and how much money they still have. In addition, a log is kept of events that have taken place since the current player started
+            their turn; this is particularly useful if the game is saved and quit partway through a player's turn, as the log can aid with picking up where the players left off.
+        </p>
+        <p>
+            While a game is being played, two database files are used, for two different purposes:
+            <ul>
+                <li>
+                    Board Database: provides information, such as names and property groups, about the board being played on.
+                </li>
+                <li>
+                    Specific Game Database: provides information, such as player names and owned properties, about the game currently in progress.
+                </li>
+            </ul>
+            In addition, the application uses a third file to keep track of the saved games, such as which board they are being played on, and the different boards that can be played on, such as what tax system they use.
+        </p>
 
         <div class="content" style="vertical-align: middle;">
             <a data-fancybox="monopoly-gallery" data-caption="Monopoly" href="static/img/monopoly/mono-main.png"><img src="static/img/monopoly/mono-main.png" class="lightbox-thumbnail img-thumbnail"></a>
