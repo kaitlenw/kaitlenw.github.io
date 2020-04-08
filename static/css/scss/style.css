@@ -5680,6 +5680,7 @@ a.text-dark:hover, a.text-dark:focus {
 html,
 body {
   background-color: #e9ecef;
+  font-family: "Open Sans";
 }
 
 .lightbox-thumbnail {
@@ -5699,6 +5700,14 @@ body {
 #about-me {
   text-align: justify;
   line-height: 1.9;
+}
+
+.titles {
+  font-style: italic;
+}
+
+#nav-arrow a {
+  color: #fd7e14;
 }
 
 /*# sourceMappingURL=style.css.map */

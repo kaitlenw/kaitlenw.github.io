@@ -8,12 +8,12 @@
 html,
 body {
     background-color: $gray-200;
+    font-family: $font-family-sans-serif;
 }
 
 .lightbox-thumbnail {
     width: 15%;
     height: auto;
-    // float: left;
     margin: 25px;
 }
 
@@ -26,7 +26,14 @@ body {
 }
 
 #about-me {
-    // font-weight: lighter;
     text-align: justify;
     line-height: 1.9;
+}
+
+.titles {
+    font-style: italic;
+}
+
+#nav-arrow a {
+    color: $orange;
 }
