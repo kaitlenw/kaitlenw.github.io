@@ -5,9 +5,28 @@
     margin-bottom: 50px;
 }
 
+html,
+body {
+    background-color: $gray-200;
+}
+
 .lightbox-thumbnail {
     width: 15%;
     height: auto;
     // float: left;
     margin: 25px;
+}
+
+.jumbotron {
+    background-color: $cyan;
+}
+
+.jumbotron p {
+    color: $gray-800;
+}
+
+#about-me {
+    // font-weight: lighter;
+    text-align: justify;
+    line-height: 1.9;
 }

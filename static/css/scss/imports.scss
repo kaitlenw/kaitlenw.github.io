@@ -1,6 +1,8 @@
 // Required
 @import "../bootstrap/scss/functions";
 @import "../bootstrap/scss/variables";
+@import "custom-vars";
+@import "../bootstrap/scss/variables";
 @import "../bootstrap/scss/mixins";
 // Optional
 @import "../bootstrap/scss/reboot";
@@ -14,6 +16,4 @@
 @import "../bootstrap/scss/card";
 @import "../bootstrap/scss/jumbotron";
 @import "../bootstrap/scss/utilities";
-$stretched-link-pseudo-element: after !default;
-$stretched-link-z-index: 1 !default;
 @import "../bootstrap/scss/stretched-link";

@@ -1,8 +1,6 @@
 //
 // Stretched link
 //
-$stretched-link-pseudo-element: after !default;
-$stretched-link-z-index: 1 !default;
 .stretched-link {
     &::#{$stretched-link-pseudo-element} {
         position: absolute;
