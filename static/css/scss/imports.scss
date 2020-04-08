@@ -1,0 +1,19 @@
+// Required
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+// Optional
+@import "../bootstrap/scss/reboot";
+@import "../bootstrap/scss/type";
+@import "../bootstrap/scss/images";
+@import "../bootstrap/scss/code";
+@import "../bootstrap/scss/grid";
+@import "../bootstrap/scss/buttons";
+@import "../bootstrap/scss/nav";
+@import "../bootstrap/scss/navbar";
+@import "../bootstrap/scss/card";
+@import "../bootstrap/scss/jumbotron";
+@import "../bootstrap/scss/utilities";
+$stretched-link-pseudo-element: after !default;
+$stretched-link-z-index: 1 !default;
+@import "../bootstrap/scss/stretched-link";
