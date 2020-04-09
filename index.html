@@ -1,4 +1,4 @@
-<html>
+<html class="h-100">
 
 <head>
     <title>Kaitlen Weaver</title>
@@ -6,32 +6,34 @@
     <script type="text/javascript" src="static/js/import.js"></script>
 </head>
 
-<body>
-    <h1 id="header-title">Kaitlen Weaver</h1>
-    <div id="navigation-container">
-        <ul id="header-navigation">
-            <li id="header-active"><a href="index.html">Home</a></li>
-            <li><a href="about-me.html">About Me</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="archive.html">Archive</a></li>
-        </ul>
+<body class="d-flex h-100 text-center text-black gradient-scheme">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                <nav class="navbar ml-auto">
+                    <a class="nav-link active" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="about-me.html">About Me</a>
+                    <a class="nav-link" href="projects.html">Projects</a>
+                    <a class="nav-link" href="#">Contact Me</a>
+                </nav>
+            </div>
+        </header>
+
+        <main class="px-3">
+            <h1 class="cover-title">Kaitlen Weaver</h1>
+            <p class="lead cover-secondary">
+                Welcome! Why not stay a while and read about my work?
+            </p>
+            <p class="text-secondary">
+                <a href="about-me.html" class="btn btn-lg btn-secondary font-weight-bold border-white">Who are you?</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="projects.html" class="btn btn-lg btn-secondary font-weight-bold border-white">Show me the projects</a>
+            </p>
+        </main>
+
+        <footer class="mt-auto text-white-50">
+        </footer>
     </div>
-    <div id="main-content">
-        <div class="columns is-desktop">
-            <div id="about-me" class="column hyperlink" onclick="location.href='about-me.html';">
-                <h2>About Me</h2>
-                <p>Read more about me.</p>
-            </div>
-            <div id="projects" class="column hyperlink" onclick="location.href='projects.html';">
-                <h2>Recent Projects</h2>
-                <p>Take a look at projects I've been working on.</p>
-            </div>
-            <div id="archive" class="column hyperlink" onclick="location.href='archive.html';">
-                <h2>Projects Archive</h2>
-                <p>Read about projects I've worked on in the past.</p>
-            </div>
-        </div>
-    </div>
+
 </body>
 
 </html>

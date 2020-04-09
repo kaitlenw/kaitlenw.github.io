@@ -1,0 +1,87 @@
+@import "imports";
+#main-content {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+
+html,
+body {
+    background-color: $gray-200;
+    font-family: $font-family-sans-serif;
+}
+
+a {
+    color: $orange;
+}
+
+a.nav-link {
+    color: $gray-800;
+}
+
+.card:hover {
+    color: $orange;
+}
+
+.lightbox-thumbnail {
+    width: 15%;
+    height: auto;
+    margin: 25px;
+}
+
+.gradient-scheme {
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.jumbotron {
+    @extend .gradient-scheme;
+}
+
+.jumbotron p {
+    color: $gray-800;
+}
+
+#about-me {
+    text-align: justify;
+    line-height: 1.9;
+}
+
+.titles {
+    font-style: italic;
+}
+
+#nav-arrow a {
+    color: $orange;
+}
+
+.cover-container {
+    max-width: 42em;
+}
+
+.emph-text {
+    font-family: $font-family-serif;
+}
+
+.jumbotron p {
+    @extend .emph-text;
+}
+
+h1.cover-title {
+    font-size: 70px;
+}
+
+p.cover-secondary {
+    @extend .text-secondary;
+    @extend .lead;
+    @extend .emph-text;
+}
+
+p.text-secondary a.btn {
+    width: 250px;
+    white-space: normal;
+}
+
+.temp-text {
+    text-align: center;
+    font-size: 32px;
+}
