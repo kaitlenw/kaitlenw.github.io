@@ -350,7 +350,7 @@ h6, .h6 {
   font-size: 1rem;
 }
 
-.lead {
+.lead, p.cover-secondary {
   font-size: 1.25rem;
   font-weight: 300;
 }
@@ -2393,10 +2393,10 @@ input[type=button].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #fff;
+  color: #fd7e14;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #fff;
+  color: #fd7e14;
 }
 .navbar-dark .navbar-nav .nav-link {
   color: rgba(255, 255, 255, 0.5);
@@ -2411,7 +2411,7 @@ input[type=button].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #fff;
+  color: #fd7e14;
 }
 .navbar-dark .navbar-toggler {
   color: rgba(255, 255, 255, 0.5);
@@ -2424,10 +2424,10 @@ input[type=button].btn-block {
   color: rgba(255, 255, 255, 0.5);
 }
 .navbar-dark .navbar-text a {
-  color: #fff;
+  color: #fd7e14;
 }
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
-  color: #fff;
+  color: #fd7e14;
 }
 
 .card {
@@ -5585,7 +5585,7 @@ a.text-primary:hover, a.text-primary:focus {
   color: #0062cc !important;
 }
 
-.text-secondary {
+.text-secondary, p.cover-secondary {
   color: #343a40 !important;
 }
 
@@ -5680,7 +5680,19 @@ a.text-dark:hover, a.text-dark:focus {
 html,
 body {
   background-color: #e9ecef;
-  font-family: "Open Sans";
+  font-family: "Fira Sans";
+}
+
+a {
+  color: #fd7e14;
+}
+
+a.nav-link {
+  color: #343a40;
+}
+
+.card:hover {
+  color: #fd7e14;
 }
 
 .lightbox-thumbnail {
@@ -5689,8 +5701,8 @@ body {
   margin: 25px;
 }
 
-.jumbotron {
-  background-color: #17a2b8;
+.gradient-scheme, .jumbotron {
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
 
 .jumbotron p {
@@ -5708,6 +5720,28 @@ body {
 
 #nav-arrow a {
   color: #fd7e14;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.emph-text, p.cover-secondary, .jumbotron p {
+  font-family: Merriweather;
+}
+
+h1.cover-title {
+  font-size: 70px;
+}
+
+p.text-secondary a.btn, p.cover-secondary a.btn {
+  width: 250px;
+  white-space: normal;
+}
+
+.temp-text {
+  text-align: center;
+  font-size: 32px;
 }
 
 /*# sourceMappingURL=style.css.map */
