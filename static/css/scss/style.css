@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Merriweather&display=swap");
 *,
 *::before,
 *::after {
@@ -5727,7 +5728,7 @@ a.nav-link {
 }
 
 .emph-text, p.cover-secondary, .jumbotron p {
-  font-family: Merriweather;
+  font-family: "Merriweather";
 }
 
 h1.cover-title {
